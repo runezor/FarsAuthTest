@@ -1,6 +1,7 @@
 from django.contrib.auth.models import User, Group
 from rest_framework import serializers
 
+#Serializer der bruges til at vise user, og fortaelle hvordan man opretter den
 class UserSerializer(serializers.ModelSerializer):
 	class Meta:
 		model = User
