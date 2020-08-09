@@ -1,3 +1,3 @@
 Django==3.1
 gunicorn==20.0.4
-psycopp==2.8.5
+psycopg==2.8.5
