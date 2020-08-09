@@ -1,1 +1,1 @@
-web: gunicorn FarsAuthTest.wsgi --log-file -
+web: gunicorn FarsAuthTestApp.wsgi --log-file -
